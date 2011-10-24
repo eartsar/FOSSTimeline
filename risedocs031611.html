@@ -1,0 +1,174 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" lang="en"><head>
+
+
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<link rel="prev" href="http://opl-management.rit.edu/rise/node/549">
+<link rel="up" href="http://opl-management.rit.edu/rise/node/449">
+<link rel="canonical" href="http://opl-management.rit.edu/rise/node/510">
+<link rel="shortcut icon" href="http://opl-management.rit.edu/profiles/openatrium/themes/ginkgo/favicon.ico" type="image/x-icon">
+  <link type="text/css" rel="stylesheet" media="print" href="risedocs031611_files/reset.css">
+<link type="text/css" rel="stylesheet" media="print" href="risedocs031611_files/base.css">
+<link type="text/css" rel="stylesheet" media="print" href="risedocs031611_files/print.css">
+<link type="text/css" rel="stylesheet" media="print" href="risedocs031611_files/print-custom.css">
+<link type="text/css" rel="stylesheet" media="all" href="risedocs031611_files/reset.css">
+<link type="text/css" rel="stylesheet" media="all" href="risedocs031611_files/base.css">
+<link type="text/css" rel="stylesheet" media="all" href="risedocs031611_files/print.css">
+<link type="text/css" rel="stylesheet" media="all" href="risedocs031611_files/print-custom.css">
+
+  <title>Working with the Rise Source Code | OPL Open Atrium</title>
+</head><body class="print rubik admin-static page">
+  <div class="limiter clear-block">
+    <div id="content" class="clear-block">
+      <div class="print-header">
+      <h1 class="site-name">OPL Open Atrium</h1>
+  </div>
+      
+
+<div id="node-510" class="node node-book clear-block node-page">
+      <div class="node-submitted clear-block">
+      <div class="picture">
+  <a href="http://opl-management.rit.edu/rise/user/14" title="View user profile."><img src="risedocs031611_files/picture-14.jpg" alt="John Karahalis's picture" title="View user profile." class="imagecache imagecache-user-s" height="30" width="30"></a></div>
+      <div class="byline"><a href="http://opl-management.rit.edu/rise/user/14" class="username" title="View user profile.">John Karahalis</a></div><div class="date">4:23pm Mar 16, 2011</div>    </div>
+  
+      <h2 class="node-title">
+            <a href="http://opl-management.rit.edu/rise/node/510">Working with the Rise Source Code</a>
+    </h2>
+  
+      <div class="node-content clear-block prose">
+      <div id="diff-inline-510"><h2>Working with Mercurial</h2>
+
+<p>If you've never worked with Mercurial before, please skim the following chapters of <em>Mercurial: The Definitive Guide</em>. It's a very well-written guide, so 10 minutes of skimming now might save you hours of problem solving later.</p>
+
+<p><a href="http://hgbook.red-bean.com/read/a-tour-of-mercurial-the-basics.html">Chapter 2. A tour of Mercurial: the basics</a><br>
+<a href="http://hgbook.red-bean.com/read/mercurial-in-daily-use.html">Chapter 5. Mercurial in daily use</a></p>
+
+<h2>Get a copy of the software</h2>
+
+<p>A Drupal installation profile is a collection of code that describes a
+ Drupal platform -- image resizing here, video support there, etc. Our 
+software is composed of two Drupal installation profiles:</p>
+
+<p><strong>Input</strong>, the platform for writing stories, reporting news by email, voting, etc.<br>
+<strong>Managing News</strong>, specifically a customized version of Managing News that uses RIT maps, etc.</p>
+
+<p>Use the Mercurial commands below to make make copies of this 
+software. If you are using TortoiseHg or some other GUI tool, extract 
+the relevant information from these commands (username, server, 
+repository location, etc.) and plug it into the GUI. Please note that 
+you must have an account on opl-management.rit.edu for any of these to 
+work.</p>
+
+<ul>
+<li><strong>Input:</strong> <code>hg clone ssh://[username]@opl-management.rit.edu//var/repos/rise/input-dev input</code><br></li>
+<li><strong>Managing News (+ Our Customizations):</strong> <code>hg clone ssh://[username]@opl-management.rit.edu//var/repos/rise/mnrise-dev mnrise</code></li>
+</ul>
+
+<h3>Installing the profiles</h3>
+
+<p>Each of the above commands creates a directory, and each directory 
+contains an installation profile. The first command creates a directory 
+named "input-dev" containing the Input installation profile. The second 
+command creates a directory named "mnrise-dev" containing the Managing 
+News (+ our customizations) installation profile. Follow the steps below
+ to install an actual Drupal website from these installation profiles.</p>
+
+<ol>
+<li>For each profile, determine the version of Drupal core required. To 
+do this, navigate to the installation profile directory (input or 
+mnrise) and run the following:
+
+<ul>
+<li>For input: <code>grep "core" drupal-org.make</code></li>
+<li>For mnrise: <code>grep "projects\[drupal\]\[version\]" *</code></li>
+</ul></li>
+<li>Download this version of Drupal core.</li>
+<li>Move the installation profile directory (input-dev or mnrise-dev) to the <code>profiles</code>
+ directory of the Drupal core file structure. For input, rename 
+input-dev to rise. For Managing News, rename mnrise-dev to mnrise.</li>
+<li>If you are using the myNews development server and do not already have Drush Make set up, add the following to your <code>~/.bashrc</code> file...<br>
+<code>alias drush="drush --include=/usr/local/lib/drush-commands"</code><br>
+...and run <code>source ~/.bashrc</code></li>
+<li>If installing Input, navigate to the <code>input</code> directory and run <code>the following</code>. Answer "y" to questions about making a site in the current directory.<br>
+<code>rm -rf modules/modules; drush make --drupal-org -y drupal-org.make</code></li>
+<li>Install Drupal as you would normally, ensuring that you select the 
+appropriate installation profile. If you do not already have a database 
+to use for the "Configure Database" step, please ask me or Seppi to set 
+one up for you.</li>
+</ol>
+
+<p>For the record, this will become easier down the line. When an 
+installation profile is shared on drupal.org, most of this is done 
+automatically.</p>
+
+<h2>Contributing Changes</h2>
+
+<p>Make changes to the software and commit it (with <code>hg commit</code>)
+ as you would with Subversion. When you are totally satisfied with your 
+changes and are sure that they do not cause any problems, use <code>hg push</code> to share those changes with the rest of the group. I will do the dirty work of moving your changes into official releases.</p>
+
+<p>Please only push changes related to your tickets. If you do something
+ totally different ("I changed the theme to one I like better and 
+started using a different voting module"), please do not push these 
+changes the standard way, as this will affect all other developers. 
+Instead, please talk with me so that we can share your changes in a way 
+that does not affect the main stream of development.</p>
+
+<h2>Comparing our modifications to the base Managing News software</h2>
+
+<p>To see what changes we made to Managing News, do one or more of the following:</p>
+
+<h3>Read the commit messages</h3>
+
+<p>This is probably the easiest way to get an overview of what we've changed. Type <code>hg log</code> and read each commit message.</p>
+
+<h3>View code changes</h3>
+
+<p>If you need to see what actual code has changed, type the following: <code>hg diff -r tip -r 0 | less</code></p><div class="view view-xref view-id-xref view-display-id-default view-dom-id-1">
+    
+  
+  
+      <div class="view-content">
+      <table class="views-table cols-1">
+        <thead>
+      <tr>
+                  <th class="views-field title">
+            Referenced by          </th>
+                  <th class="views-field date">
+            Last post          </th>
+                  <th class="views-field username">
+            Author          </th>
+              </tr>
+    </thead>
+    <tbody>
+          <tr class="odd views-row-first views-row-last">
+                  <td class="views-field title">
+            <a href="http://opl-management.rit.edu/rise/node/566">Committing and Sharing Your Changes</a>          </td>
+                  <td class="views-field date">
+            8:10pm Mar 31, 2011          </td>
+                  <td class="views-field username">
+            <a href="http://opl-management.rit.edu/rise/user/14" class="username" title="View user profile.">John Karahalis</a>          </td>
+              </tr>
+      </tbody>
+</table>
+    </div>
+  
+  
+  
+  
+  
+  
+</div> </div>    </div>
+  
+      <div class="node-links clear-block"><ul class="links inline"><li class="book_add_child first"><a href="http://opl-management.rit.edu/rise/node/add/book?parent=617">Add child page</a></li>
+<li class="print active"><a href="http://opl-management.rit.edu/rise/node/510?print" class="active">Print</a></li>
+<li class="print_recurse last active"><a href="http://opl-management.rit.edu/rise/node/510?print&amp;book_recurse" class="active">Print entire section</a></li>
+</ul></div>
+  </div>
+
+
+    </div>
+          <div id="footer" class="clear-block">© 2009 <a href="http://www.developmentseed.org/">Development Seed</a></div>
+      </div>
+</body></html>
