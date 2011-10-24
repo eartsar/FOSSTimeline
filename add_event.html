@@ -1,0 +1,87 @@
+<HTML>
+	<HEAD>
+		<TITLE>Add New Event</TITLE>
+		<SCRIPT LANGUAGE="JavaScript">
+			function verifyEvent(form){
+				ELABEL = document.eventform.elabel.value
+				ETYPE = document.eventform.etype.value
+				EDATE = document.eventform.edate.value
+				EDETAILS = document.eventform.edetails.value
+				ELINK = document.eventform.elink.value
+				
+				
+				if(ELABEL == null || ELABEL == "") {
+					alert("Label cannot be blank.");
+					return false;
+				}
+				else if(EDATE == null || EDATE == "") {
+					alert("Date cannot be blank.");
+					return false;
+				}
+				else if(EDETAILS == null || EDETAILS == "") {
+					alert("Details cannot be blank.");
+					return false;
+				}
+				else if(ELINK == null || ELINK == "") {
+					alert("Link cannot be blank.");
+					return false;
+				}
+
+				regex = /^\d{4}-\d{2}-\d{2}$/;
+				if(!EDATE.match(regex)) {
+					alert("Date does not match correct format yyyy-mm-dd.");
+					return false;
+				}
+		
+				document.testform.submit(); 
+			} 
+		</SCRIPT>
+	</HEAD>
+	<BODY>
+		<FORM name = "eventform" method="POST" action="/cgi-bin/add_event_cgi.py">
+			<TABLE border="1">
+				<TR>
+					<TH colspan="2" align="center">New Event</TH>
+				</TR> 
+				<TR> 
+					<TD>Event Name</TD>
+					<TD> <input type="text" name="elabel" size="25"> </TD> 
+				</TR>
+				<TR>
+					<TD>Event Type</TD>
+					<TD> <select name="etype">
+						<option selected>Event</option>
+						<option>Conference</option>
+						<option>Hackathon</option>
+						<option>Project Release</option>
+						<option>Press</option>
+						<option>Team Meeting</option>
+						<option>Dev Meeting</option>
+						<option>Design Meeting</option>
+						<option>Test Event</option>
+					</select>
+					</TD>
+				</TR>
+				<TR> 
+					<TD>Date</TD>
+					<TD> <input type="text" name="edate" size="25" value="yyyy-mm-dd"> </TD> 
+				</TR>
+				<TR>
+					<TD colspan="2">Event Details:<BR> 
+						<textarea name="edetails" cols="50" rows="4"> </textarea> 
+					</TD> 
+				</TR>
+				<TR> 
+					<TD colspan="2">Event Link:<BR> 
+						<textarea name="elink" cols="50" rows="2"> </textarea> 
+					</TD>
+				</TR>
+				<TR>
+					<TD colspan="2" align="center"> 
+						<input type="submit" name = "submitbutton" value="Add Event" onClick="return verifyEvent(this.form)"> 
+					</TD>
+				</TR> 
+			</TABLE> 
+		</FORM> 
+	</BODY> 
+</HTML>

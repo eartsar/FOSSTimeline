@@ -1,0 +1,6 @@
+Aliases to web directories found here: /etc/httpd/conf.d/foss_bot.conf
+Task:
+  Create selinux "allowance" by using "audit2allow"
+  Problem: semodule not found
+
+sudo /usr/sbin/semodule -i supybot.pp
