@@ -35,7 +35,16 @@
     },
     "items" : [
 //HACKATHONS
-		{   "type" : "Hackathon",
+		{   "type" :                  "Hackathon",
+            "label" :                 "Software Freedom Day '11",
+            "discipline" :            "Hackathon",
+            "date" :                  "2011-09-17",
+            "relationship" :           "Hackathon",
+            "relationship-detail" :   "Open Hackathon and Lightning Talks ",
+            "imageURL" :              "hackfest.png",
+            "url" :                   "http://softwarefreedomday.org"
+        },
+		{   "type" :                  "Hackathon",
             "label" :                 "CrisisCampRoc Hackathon for Haiti",
             "discipline" :            "Hackathon",
             "date" :                  "2010-02-12",
@@ -157,6 +166,24 @@
 
 
 //EVENTS
+        {   "type" :                  "Event",
+            "label" :                 "Google Faculty Research Program Info Session",
+            "discipline" :            "Demo",
+            "date" :                  "2011-07-15",
+            "relationship" :          "Event",
+            "relationship-detail" :   "Explored Future funding opportunities for FOSS@RIT",
+            "imageURL" :              "Event.png",
+            "url" :                   "http://research.google.com/university/relations/research_awards.html"
+        },
+        {   "type" :                  "Event",
+            "label" :                 "SU Student Sandbox Demo Day",
+            "discipline" :            "Demo",
+            "date" :                  "2011-08-17",
+            "relationship" :          "Event",
+            "relationship-detail" :   "Tabled at SYR Tech Garden",
+            "imageURL" :              "Event.png",
+            "url" :                   "http://opensource.com/education/11/8/bridging-boxes-hacker-matchmaking-upstate-new-york-opensource-way"
+        },
         {   "type" :                  "Event",
             "label" :                 "CIVX.us Monroe Elections Demo",
             "discipline" :            "Demo",
@@ -473,6 +500,15 @@
             "url" :                   "http://www.ithaca.edu/edtechday"
         },
 		{   "type" :                  "Conference",
+            "label" :                 "TEDxBuffalo 2011",
+            "discipline" :            "Conference",
+            "date" :                  "2011-10-11",
+            "relationship" :          "Conference",
+            "relationship-detail" :   "TEDxBuffalo",
+            "imageURL" :              "Event.png",
+            "url" :                   "http://bit.ly/tedxbuffalo-civx"
+        },
+		{   "type" :                  "Conference",
             "label" :                 "WeLiveNYSummit 2011",
             "discipline" :            "Conference",
             "date" :                  "2011-03-26",
@@ -489,15 +525,6 @@
             "relationship-detail" :   "Rochester Java User Group Meeting (RJUG)",
             "imageURL" :              "Event.png",
             "url" :                   "http://foss.rit.edu/node/283"
-        },
-		{   "type" :                  "Event",
-            "label" :                 "Knight/Kauffman Foundation Walkthrough",
-            "discipline" :            "Event",
-            "date" :                  "2011-05-06",
-            "relationship" :          "Event",
-            "relationship-detail" :   "Knight/Kauffman Foundation Walkthrough",
-            "imageURL" :              "Event.png",
-            "url" :                   "http://foss.rit.edu/node/285"
         },
 		{   "type" :                  "Hackathon",
             "label" :                 "RiseAboveTheCrowd Hackfest",
