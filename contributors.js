@@ -256,6 +256,15 @@
             "imageURL" :              "Event.png",
             "url" :                   "http://foss.rit.edu/files/Open_Source_Software_Research_Mini_Summit.pdf"
         },
+		{   "type" :                  "Event",
+            "label" :                 "RIT New Student Resource Fair",
+            "discipline" :            "Demo",
+            "date" :                  "2011-08-31",
+            "relationship" :          "Event",
+            "relationship-detail" :   "FOSS@RIT Tabled at event for incoming freshmen",
+            "imageURL" :              "Event.png",
+            "url" :                   "http://www.rit.edu/~w-orient/firstyear_highlights.php"
+        },
 		{   "type" :                  "Conference",
             "label" :                 "GOSCON - Government Open Source Conference",
             "discipline" :            "Conference",
