@@ -36,10 +36,19 @@
     "items" : [
 //HACKATHONS
 		{   "type" :                  "Hackathon",
+            "label" :                 "Election Night Hackathon '11",
+            "discipline" :            "Hackathon",
+            "date" :                  "2011-11-08",
+            "relationship" :          "Hackathon",
+            "relationship-detail" :   "Open event to watch real-time results of the election, and hack on open projects",
+            "imageURL" :              "hackfest.png",
+            "url" :                   "http://foss.rit.edu/election-night-hackathon-2011"
+        },
+		{   "type" :                  "Hackathon",
             "label" :                 "Software Freedom Day '11",
             "discipline" :            "Hackathon",
             "date" :                  "2011-09-17",
-            "relationship" :           "Hackathon",
+            "relationship" :          "Hackathon",
             "relationship-detail" :   "Open Hackathon and Lightning Talks ",
             "imageURL" :              "hackfest.png",
             "url" :                   "http://softwarefreedomday.org"
@@ -48,7 +57,7 @@
             "label" :                 "CrisisCampRoc Hackathon for Haiti",
             "discipline" :            "Hackathon",
             "date" :                  "2010-02-12",
-            "relationship" :           "Hackathon",
+            "relationship" :          "Hackathon",
             "relationship-detail" :   "Hackathon for Haiti relief",
             "imageURL" :              "hackfest.png",
             "url" :                   "http://pages.e-democracy.org/DemocracyMap"
@@ -57,7 +66,7 @@
             "label" :                 "DemocracyMaps Dev Camp Hackathon",
             "discipline" :            "Hackathon",
             "date" :                  "2010-06-14",
-            "relationship" :           "Hackathon",
+            "relationship" :          "Hackathon",
             "relationship-detail" :   "DemocracyMaps Dev Camp Hackathon",
             "imageURL" :              "hackfest.png",
             "url" :                   "http://www.rit.edu/innovationcenter/crisiscamproc-hack-thon-haiti-follow"
@@ -66,7 +75,7 @@
             "label" :                 "Sunlight Foundation's Great American Hackathon",
             "discipline" :            "Hackathon",
             "date" :                  "2009-12-12",
-            "relationship" :            "Hackathon",
+            "relationship" :          "Hackathon",
             "relationship-detail" :   "RIT's local hackathon as a part of the Great American Hackathon event",
             "imageURL" :              "hackfest.png",
             "url" :                   "http://www.rit.edu/innovationcenter/great-american-hackathon-rit"
@@ -75,7 +84,7 @@
             "label" :                 "FOSS@RIT OLPC HQ Hackathon",
             "discipline" :            "Hackathon",
             "date" :                  "2010-07-28",
-            "relationship" :            "Hackathon",
+            "relationship" :          "Hackathon",
             "relationship-detail" :   "FOSS@RIT goes to OLPC HQ!",
             "imageURL" :              "hackfest.png",
             "url" :                   "http://www.rit.edu/innovationcenter/category/tags/hackathon"
@@ -84,7 +93,7 @@
             "label" :                 "FOSS@RIT Homestretch Hackathon Summer",
             "discipline" :            "Hackathon",
             "date" :                  "2010-08-04",
-            "relationship" :            "Hackathon",
+            "relationship" :          "Hackathon",
             "relationship-detail" :   "FOSS@RIT Homestretch Hackathon",
             "imageURL" :              "hackfest.png",
             "url" :                   "http://foss.rit.edu/homestretchhackathon"
@@ -167,6 +176,24 @@
 
 //EVENTS
         {   "type" :                  "Event",
+            "label" :                 "Game-Mania @ Strong Museum of Play",
+            "discipline" :            "Demo",
+            "date" :                  "2011-11-05",
+            "relationship" :          "Event",
+            "relationship-detail" :   "Demo'd Educational Games developed for HFOSS course on the OLPC XO laptops",
+            "imageURL" :              "Event.png",
+            "url" :                   "http://games.rit.edu/videogamemania"
+        },
+        {   "type" :                  "Event",
+            "label" :                 "StartupWeekendSyracuse",
+            "discipline" :            "Demo",
+            "date" :                  "2011-11-04",
+            "relationship" :          "Event",
+            "relationship-detail" :   "Served as Technical Mentor, and Open Source Advisor",
+            "imageURL" :              "Event.png",
+            "url" :                   "http://syracuse.startupweekend.org"
+        },
+        {   "type" :                  "Event",
             "label" :                 "Google Faculty Research Program Info Session",
             "discipline" :            "Demo",
             "date" :                  "2011-07-15",
@@ -192,6 +219,33 @@
             "relationship-detail" :   "Live CIVX.us Monroe Elections Demo for WXXI",
             "imageURL" :              "Event.png",
             "url" :                   "http://innovationtrail.org/post/election-night-results"
+        },
+		{   "type" :                  "Conference",
+            "label" :                 "IEEE International Games Innovation Conference",
+            "discipline" :            "Conference",
+            "date" :                  "2011-11-04",
+            "relationship" :          "Conference",
+            "relationship-detail" :   "IEEE IGIC",
+            "imageURL" :              "Event.png",
+            "url" :                   "http://ice-gic.ieee-cesoc.org/2011/index.htm"
+        },
+		{   "type" :                  "Conference",
+            "label" :                 "Audio Engineering Society Conference",
+            "discipline" :            "Conference",
+            "date" :                  "2011-10-24",
+            "relationship" :          "Conference",
+            "relationship-detail" :   "Game Audio Sessions",
+            "imageURL" :              "Event.png",
+            "url" :                   "http://www.gamasutra.com/view/news/38070/When_Motion_Controllers_And_Sound_Design_Collide.php"
+        },
+		{   "type" :                  "Conference",
+            "label" :                 "ACM SIGITE",
+            "discipline" :            "Conference",
+            "date" :                  "2011-10-20",
+            "relationship" :          "Conference",
+            "relationship-detail" :   "IT Educators Panel",
+            "imageURL" :              "Event.png",
+            "url" :                   "http://opensource.com/education/11/10/foss-meets-it-education-acm-sigite"
         },
 		{   "type" :                  "Conference",
             "label" :                 "Teaching Open Source Summit",
