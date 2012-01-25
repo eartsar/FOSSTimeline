@@ -726,7 +726,7 @@
             "url" :                   "http://rochester.startupweekend.org/"
         },
         {   "type" :                  "Event",
-            "label" :                 "ARM Developer Day",
+            "label" :                 "2nd ARM Developer Day @ RIT",
             "discipline" :            "Event",
             "date" :                  "2012-01-24",
             "relationship" :          "Event",
