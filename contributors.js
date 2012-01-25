@@ -226,7 +226,7 @@
             "date" :                  "2011-11-04",
             "relationship" :          "Conference",
             "relationship-detail" :   "IEEE IGIC",
-            "imageURL" :              "Event.png",
+            "imageURL" :              "meninblack.png",
             "url" :                   "http://ice-gic.ieee-cesoc.org/2011/index.htm"
         },
 		{   "type" :                  "Conference",
@@ -235,7 +235,7 @@
             "date" :                  "2011-10-24",
             "relationship" :          "Conference",
             "relationship-detail" :   "Game Audio Sessions",
-            "imageURL" :              "Event.png",
+            "imageURL" :              "meninblack.png",
             "url" :                   "http://www.gamasutra.com/view/news/38070/When_Motion_Controllers_And_Sound_Design_Collide.php"
         },
 		{   "type" :                  "Conference",
@@ -244,7 +244,7 @@
             "date" :                  "2011-08-12",
             "relationship" :          "Conference",
             "relationship-detail" :   "Nate Case won 'Best Paper in IT/Computing for his work on the CIVX project",
-            "imageURL" :              "Event.png",
+            "imageURL" :              "meninblack.png",
             "url" :                   "http://www.rit.edu/innovationcenter/symposium/News2010.html"
         },
 		{   "type" :                  "Conference",
@@ -253,17 +253,8 @@
             "date" :                  "2011-08-24",
             "relationship" :          "Conference",
             "relationship-detail" :   "Meeting of prominant FOSS labs internationally",
-            "imageURL" :              "Event.png",
+            "imageURL" :              "meninblack.png",
             "url" :                   "http://foss.rit.edu/files/Open_Source_Software_Research_Mini_Summit.pdf"
-        },
-		{   "type" :                  "Event",
-            "label" :                 "RIT New Student Resource Fair",
-            "discipline" :            "Demo",
-            "date" :                  "2011-08-31",
-            "relationship" :          "Event",
-            "relationship-detail" :   "FOSS@RIT Tabled at event for incoming freshmen",
-            "imageURL" :              "Event.png",
-            "url" :                   "http://www.rit.edu/~w-orient/firstyear_highlights.php"
         },
 		{   "type" :                  "Conference",
             "label" :                 "GOSCON - Government Open Source Conference",
@@ -271,7 +262,7 @@
             "date" :                  "2011-08-23",
             "relationship" :          "Conference",
             "relationship-detail" :   "Represented FOSS@RIT in Washington D.C.",
-            "imageURL" :              "Event.png",
+            "imageURL" :              "meninblack.png",
             "url" :                   "http://goscon.org/"
         },
 		{   "type" :                  "Conference",
@@ -280,7 +271,7 @@
             "date" :                  "2011-08-12",
             "relationship" :          "Conference",
             "relationship-detail" :   "Presentation of Student Research Projects",
-            "imageURL" :              "Event.png",
+            "imageURL" :              "meninblack.png",
             "url" :                   "http://www.rit.edu/innovationcenter/symposium/index.html"
         },
 		{   "type" :                  "Conference",
@@ -289,7 +280,7 @@
             "date" :                  "2011-10-20",
             "relationship" :          "Conference",
             "relationship-detail" :   "IT Educators Panel",
-            "imageURL" :              "Event.png",
+            "imageURL" :              "meninblack.png",
             "url" :                   "http://opensource.com/education/11/10/foss-meets-it-education-acm-sigite"
         },
 		{   "type" :                  "Conference",
@@ -298,7 +289,7 @@
             "date" :                  "2010-10-29",
             "relationship" :          "Conference",
             "relationship-detail" :   "Teaching Open Source Summit",
-            "imageURL" :              "Event.png",
+            "imageURL" :              "meninblack.png",
             "url" :                   "http://teachingopensource.org/index.php/TOSS09"
         },
 		{   "type" :                  "Conference",
@@ -307,7 +298,7 @@
             "date" :                  "2010-03-10",
             "relationship" :          "Conference",
             "relationship-detail" :   "Humanitarian FOSS Project Symposium",
-            "imageURL" :              "Event.png",
+            "imageURL" :              "meninblack.png",
             "url" :                   "http://www.hfoss.org/hfoss2010/?q=node/10"
         },
 		{   "type" :                  "Conference",
@@ -316,7 +307,7 @@
             "date" :                  "2010-10-27",
             "relationship" :          "Conference",
             "relationship-detail" :   "Frontiers in Education Conference",
-            "imageURL" :              "Event.png",
+            "imageURL" :              "meninblack.png",
             "url" :                   "http://www.fie-conference.org/fie2010/Pages/letters.htm"
         },
 		{   "type" :                  "Conference",
@@ -325,7 +316,7 @@
             "date" :                  "2010-06-05",
             "relationship" :          "Conference",
             "relationship-detail" :   "Personal Democracy Forum",
-            "imageURL" :              "Event.png",
+            "imageURL" :              "meninblack.png",
             "url" :                   "http://personaldemocracy.com/personal-democracy-forum-2010-conference-was"
         },
 		{   "type" :                  "Conference",
@@ -334,7 +325,7 @@
             "date" :                  "2010-12-21",
             "relationship" :          "Conference",
             "relationship-detail" :   "IEEE Games Innovation Conference",
-            "imageURL" :              "Event.png",
+            "imageURL" :              "meninblack.png",
             "url" :                   "http://ice-gic.ieee-cesoc.org/2011/index.htm"
         },
 		{   "type" :                  "Conference",
@@ -343,7 +334,7 @@
             "date" :                  "2010-06-21",
             "relationship" :          "Conference",
             "relationship-detail" :   "NTID Technology Symposium",
-            "imageURL" :              "Event.png",
+            "imageURL" :              "meninblack.png",
             "url" :                   "http://www.rit.edu/ntid/vp/techsym/"
         },
 		{   "type" :                  "Conference",
@@ -352,7 +343,7 @@
             "date" :                  "2010-11-14",
             "relationship" :          "Conference",
             "relationship-detail" :   "Engineer of the Future Conference",
-            "imageURL" :              "Event.png",
+            "imageURL" :              "meninblack.png",
             "url" :                   "http://engineerofthefuture.illinois.edu/"
         },
 		{   "type" :                  "Event",
@@ -370,7 +361,7 @@
             "date" :                  "2010-08-13",
             "relationship" :          "Conference",
             "relationship-detail" :   "RIT Summer Undergraduate Research Symposium",
-            "imageURL" :              "Event.png",
+            "imageURL" :              "meninblack.png",
             "url" :                   "http://www.rit.edu/innovationcenter/symposium/"
         },
 		{   "type" :                  "Conference",
@@ -379,7 +370,7 @@
             "date" :                  "2010-11-12",
             "relationship" :          "Conference",
             "relationship-detail" :   "RIT Fall Undergraduate Research Symposium",
-            "imageURL" :              "Event.png",
+            "imageURL" :              "meninblack.png",
             "url" :                   "http://www.rit.edu/innovationcenter/symposium/"
         },
 		{   "type" :                  "Conference",
@@ -388,7 +379,7 @@
             "date" :                  "2010-09-29",
             "relationship" :          "Conference",
             "relationship-detail" :   "Social Media and Communications Symposium",
-            "imageURL" :              "Event.png",
+            "imageURL" :              "meninblack.png",
             "url" :                   "http://www.rit.edu/cla/smacs/"
         },
 		{   "type" :                  "Event",
@@ -406,7 +397,7 @@
             "date" :                  "2010-06-19",
             "relationship" :          "Conference",
             "relationship-detail" :   "FOSSCon 2010 hosted @ RIT",
-            "imageURL" :              "Event.png",
+            "imageURL" :              "meninblack.png",
             "url" :                   "http://fosscon.org/"
         },
 		{   "type" :                  "Event",
@@ -451,7 +442,7 @@
             "date" :                  "2010-08-19",
             "relationship" :          "Conference",
             "relationship-detail" :   "CapitolCamp Developer Summit",
-            "imageURL" :              "Event.png",
+            "imageURL" :              "meninblack.png",
             "url" :                   "http://barcamp.org/w/page/402087/CapitolCamp"
         },
 		{   "type" :                  "Conference",
@@ -460,7 +451,7 @@
             "date" :                  "2010-10-23",
             "relationship" :          "Conference",
             "relationship-detail" :   "Barcamp Rochester Fall 2010",
-            "imageURL" :              "Event.png",
+            "imageURL" :              "meninblack.png",
             "url" :                   "http://barcamproc.org/"
         },
 		{   "type" :                  "Event",
@@ -505,7 +496,7 @@
             "date" :                  "2011-04-09",
             "relationship" :          "Conference",
             "relationship-detail" :   "RIT Connectology Leadership Conference",
-            "imageURL" :              "Event.png",
+            "imageURL" :              "meninblack.png",
             "url" :                   "http://campuslife.rit.edu/leadership/connectology/conference.php"
         },
 		{   "type" :                  "Hackathon",
@@ -514,7 +505,7 @@
             "date" :                  "2011-01-21",
             "relationship" :          "Hackathon",
             "relationship-detail" :   "FOSS@RIT Winter Hackfest",
-            "imageURL" :              "Event.png",
+            "imageURL" :              "hackfest.png",
             "url" :                   "http://foss.rit.edu/winterhackfest"
         },
 		{   "type" :                  "Event",
@@ -532,7 +523,7 @@
             "date" :                  "2011-03-09",
             "relationship" :          "Conference",
             "relationship-detail" :   "PYCon: Connecting the Python Community",
-            "imageURL" :              "Event.png",
+            "imageURL" :              "meninblack.png",
             "url" :                   "http://us.pycon.org/2011/home/"
         },
 		{   "type" :                  "Event",
@@ -568,7 +559,7 @@
             "date" :                  "2011-04-16",
             "relationship" :          "Conference",
             "relationship-detail" :   "Spring 2011 Barcamp Rochester",
-            "imageURL" :              "Event.png",
+            "imageURL" :              "meninblack.png",
             "url" :                   "http://www.barcamproc.org/"
         },
 		{   "type" :                  "Event",
@@ -604,7 +595,7 @@
             "date" :                  "2011-10-11",
             "relationship" :          "Conference",
             "relationship-detail" :   "TEDxBuffalo",
-            "imageURL" :              "Event.png",
+            "imageURL" :              "meninblack.png",
             "url" :                   "http://bit.ly/tedxbuffalo-civx"
         },
 		{   "type" :                  "Conference",
@@ -613,7 +604,7 @@
             "date" :                  "2011-03-26",
             "relationship" :          "Conference",
             "relationship-detail" :   "WeLiveNYSummit 2011 - Transparency, Technology, and Gov2.0",
-            "imageURL" :              "Event.png",
+            "imageURL" :              "meninblack.png",
             "url" :                   "http://unystartups.com/2011/03/22/promotional-video-we-live-ny-summit-2011/"
         },
 		{   "type" :                  "Event",
@@ -649,7 +640,7 @@
             "date" :                  "2011-10-22",
             "relationship" :          "Conference",
             "relationship-detail" :   "BarcampROC Fall 2011",
-            "imageURL" :              "Event.png",
+            "imageURL" :              "meninblack.png",
             "url" :                   "http://BarcampROC.org"
         },
 		{   "type" :                  "Event",
@@ -705,6 +696,43 @@
             "relationship-detail" :   "POSSE",
             "imageURL" :              "Event.png",
             "url" :                   "http://teachingopensource.org/index.php/POSSE_RIT"
+        },
+        {   "type" :                  "Conference",
+            "label" :                 "FUDCon Blacksburg",
+            "discipline" :            "Conference",
+            "date" :                  "2012-01-13",
+            "relationship" :          "Conference",
+            "relationship-detail" :   "FOSS@RIT attends FUDCon Blacksburg to show off OLPC Projects and RIT Remixerator.",
+            "imageURL" :              "meninblack.png",
+            "url" :                   "http://fedoraproject.org/wiki/FUDCon:Blacksburg_2012"
+        },
+        {
+            "type" :                  "Conference",
+            "label" :                 "PyCon 2012",
+            "discipline" :            "Conference",
+            "date" :                  "2012-03-09",
+            "relationship" :          "Conference",
+            "relationship-detail" :   "FOSS@RIT attends PyCon and gives poster sessions on python related work.",
+            "imageURL" :              "meninblack.png",
+            "url" :                   "https://us.pycon.org/2012/"
+        },
+        {   "type" :                  "Conference",
+            "label" :                 "Startup Weekend Rochester",
+            "discipline" :            "Conference",
+            "date" :                  "2012-04-29",
+            "relationship" :          "Conference",
+            "relationship-detail" :   "FOSS@RIT participates in 54-hour event focused on developing mobile apps.",
+            "imageURL" :              "meninblack.png",
+            "url" :                   "http://rochester.startupweekend.org/"
+        },
+        {   "type" :                  "Event",
+            "label" :                 "ARM Developer Day",
+            "discipline" :            "Event",
+            "date" :                  "2012-01-24",
+            "relationship" :          "Event",
+            "relationship-detail" :   "Second ARM Developer Day @ RIT",
+            "imageURL" :              "Event.png",
+            "url" :                   "http://armdeveloperday2nd.wordpress.com//"
         },
 	]
 }
