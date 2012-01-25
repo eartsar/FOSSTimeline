@@ -1,6 +1,6 @@
 {
     "types" : {
-		"Press" : {
+        "Press" : {
             pluralLabel: "Press",
         "Team Meeting" : {
             pluralLabel: "Team Meetings",
@@ -14,16 +14,16 @@
             pluralLabel: "Events",
         "Hackathon" : {
             pluralLabel: "Hackathons",
-		"Project Release" : {
-			pluralLabel: "Project Releases",
-		"Conference" : {
-			pluralLabel: "Conferences"
-		}
-		}
+        "Project Release" : {
+            pluralLabel: "Project Releases",
+        "Conference" : {
+            pluralLabel: "Conferences"
         }
         }
         }
-		}
+        }
+        }
+        }
         }
         }
         }
@@ -35,7 +35,25 @@
     },
     "items" : [
 //HACKATHONS
-		{   "type" :                  "Hackathon",
+        {   "type" :                  "Hackathon",
+            "label" :                 "STEM Video Game Challenge Hackathon '12",
+            "discipline" :            "Hackathon",
+            "date" :                  "2012-02-02",
+            "relationship" :          "Hackathon",
+            "relationship-detail" :   "Hackathon to garner interest and entrants for National STEM Video Game Challenge",
+            "imageURL" :              "hackfest.png",
+            "url" :                   "http://foss.rit.edu/stem12"
+        },
+        {   "type" :                  "Hackathon",
+            "label" :                 "STEM Video Game Challenge Hackathon '11",
+            "discipline" :            "Hackathon",
+            "date" :                  "2011-12-15",
+            "relationship" :          "Hackathon",
+            "relationship-detail" :   "Hackathon to garner interest and entrants for National STEM Video Game Challenge",
+            "imageURL" :              "hackfest.png",
+            "url" :                   "http://foss.rit.edu/stem11"
+        },
+        {   "type" :                  "Hackathon",
             "label" :                 "Election Night Hackathon '11",
             "discipline" :            "Hackathon",
             "date" :                  "2011-11-08",
@@ -44,7 +62,7 @@
             "imageURL" :              "hackfest.png",
             "url" :                   "http://foss.rit.edu/election-night-hackathon-2011"
         },
-		{   "type" :                  "Hackathon",
+        {   "type" :                  "Hackathon",
             "label" :                 "Software Freedom Day '11",
             "discipline" :            "Hackathon",
             "date" :                  "2011-09-17",
@@ -53,7 +71,7 @@
             "imageURL" :              "hackfest.png",
             "url" :                   "http://softwarefreedomday.org"
         },
-		{   "type" :                  "Hackathon",
+        {   "type" :                  "Hackathon",
             "label" :                 "CrisisCampRoc Hackathon for Haiti",
             "discipline" :            "Hackathon",
             "date" :                  "2010-02-12",
@@ -62,7 +80,7 @@
             "imageURL" :              "hackfest.png",
             "url" :                   "http://pages.e-democracy.org/DemocracyMap"
         },
-		{   "type" :                  "Hackathon",
+        {   "type" :                  "Hackathon",
             "label" :                 "DemocracyMaps Dev Camp Hackathon",
             "discipline" :            "Hackathon",
             "date" :                  "2010-06-14",
@@ -71,7 +89,7 @@
             "imageURL" :              "hackfest.png",
             "url" :                   "http://www.rit.edu/innovationcenter/crisiscamproc-hack-thon-haiti-follow"
         },
-		{   "type" :                  "Hackathon",
+        {   "type" :                  "Hackathon",
             "label" :                 "Sunlight Foundation's Great American Hackathon",
             "discipline" :            "Hackathon",
             "date" :                  "2009-12-12",
@@ -80,7 +98,7 @@
             "imageURL" :              "hackfest.png",
             "url" :                   "http://www.rit.edu/innovationcenter/great-american-hackathon-rit"
         },
-		{   "type" :                  "Hackathon",
+        {   "type" :                  "Hackathon",
             "label" :                 "FOSS@RIT OLPC HQ Hackathon",
             "discipline" :            "Hackathon",
             "date" :                  "2010-07-28",
@@ -89,7 +107,7 @@
             "imageURL" :              "hackfest.png",
             "url" :                   "http://www.rit.edu/innovationcenter/category/tags/hackathon"
         },
-		{   "type" :                  "Hackathon",
+        {   "type" :                  "Hackathon",
             "label" :                 "FOSS@RIT Homestretch Hackathon Summer",
             "discipline" :            "Hackathon",
             "date" :                  "2010-08-04",
@@ -100,7 +118,7 @@
         },
 
 //PROJECT RELEASES
-		{   "type" :                  "Project Release",
+        {   "type" :                  "Project Release",
             "label" :                 "Lemonade Stand 2.1 Released",
             "discipline" :            "Project Release",
             "date" :                  "2010-11-12",
@@ -109,7 +127,7 @@
             "imageURL" :              "thoughts.png",
             "url" :                   "http://blog.linkybook.com/2010/11/lemonade-stand-21-released.html"
         },
-		{   "type" :                  "Project Release",
+        {   "type" :                  "Project Release",
             "label" :                 "Blocku Released",
             "discipline" :            "Project Release",
             "date" :                  "2011-02-22",
@@ -118,7 +136,7 @@
             "imageURL" :              "thoughts.png",
             "url" :                   "http://wiki.sugarlabs.org/go/Blocku"
         },
-		{   "type" :                  "Project Release",
+        {   "type" :                  "Project Release",
             "label" :                 "Mathematical Adventure: Fortune Hunter Released",
             "discipline" :            "Project Release",
             "date" :                  "2010-03-11",
@@ -127,7 +145,7 @@
             "imageURL" :              "thoughts.png",
             "url" :                   "http://foss.rit.edu/projects/fortunehunter"
         },
-		{   "type" :                  "Project Release",
+        {   "type" :                  "Project Release",
             "label" :                 "Transbot Released",
             "discipline" :            "Project Release",
             "date" :                  "2010-11-06",
@@ -136,7 +154,7 @@
             "imageURL" :              "thoughts.png",
             "url" :                   "https://fedorahosted.org/transbot/"
         },
-		{   "type" :                  "Project Release",
+        {   "type" :                  "Project Release",
             "label" :                 "PacMath 2.0 Released",
             "discipline" :            "Project Release",
             "date" :                  "2010-02-25",
@@ -145,7 +163,7 @@
             "imageURL" :              "thoughts.png",
             "url" :                   "http://wiki.sugarlabs.org/go/PacMath"
         },
-		{   "type" :                  "Project Release",
+        {   "type" :                  "Project Release",
             "label" :                 "OpenVideoChat Demo",
             "discipline" :            "Demo",
             "date" :                  "2010-03-10",
@@ -154,7 +172,7 @@
             "imageURL" :              "thoughts.png",
             "url" :                   "http://foss.rit.edu/projects/ovc"
         },
-		{   "type" :                  "Project Release",
+        {   "type" :                  "Project Release",
             "label" :                 "Groovebot Released",
             "discipline" :            "Project Release",
             "date" :                  "2010-07-15",
@@ -163,7 +181,7 @@
             "imageURL" :              "thoughts.png",
             "url" :                   "http://gitorious.org/jlew/groovebot"
         },
-		{   "type" :                  "Project Release",
+        {   "type" :                  "Project Release",
             "label" :                 "MediaWiki Visualization",
             "discipline" :            "Demo",
             "date" :                  "2010-05-15",
@@ -220,7 +238,7 @@
             "imageURL" :              "Event.png",
             "url" :                   "http://innovationtrail.org/post/election-night-results"
         },
-		{   "type" :                  "Conference",
+        {   "type" :                  "Conference",
             "label" :                 "IEEE International Games Innovation Conference",
             "discipline" :            "Conference",
             "date" :                  "2011-11-04",
@@ -229,7 +247,7 @@
             "imageURL" :              "Event.png",
             "url" :                   "http://ice-gic.ieee-cesoc.org/2011/index.htm"
         },
-		{   "type" :                  "Conference",
+        {   "type" :                  "Conference",
             "label" :                 "Audio Engineering Society Conference",
             "discipline" :            "Conference",
             "date" :                  "2011-10-24",
@@ -238,7 +256,7 @@
             "imageURL" :              "Event.png",
             "url" :                   "http://www.gamasutra.com/view/news/38070/When_Motion_Controllers_And_Sound_Design_Collide.php"
         },
-		{   "type" :                  "Conference",
+        {   "type" :                  "Conference",
             "label" :                 "RIT Undergrad Research Symposium - Best Paper in IT/Computing",
             "discipline" :            "Conference",
             "date" :                  "2011-08-12",
@@ -247,7 +265,7 @@
             "imageURL" :              "Event.png",
             "url" :                   "http://www.rit.edu/innovationcenter/symposium/News2010.html"
         },
-		{   "type" :                  "Conference",
+        {   "type" :                  "Conference",
             "label" :                 "Open Source Software Research Mini-Summit",
             "discipline" :            "Conference",
             "date" :                  "2011-08-24",
@@ -256,7 +274,7 @@
             "imageURL" :              "Event.png",
             "url" :                   "http://foss.rit.edu/files/Open_Source_Software_Research_Mini_Summit.pdf"
         },
-		{   "type" :                  "Event",
+        {   "type" :                  "Event",
             "label" :                 "RIT New Student Resource Fair",
             "discipline" :            "Demo",
             "date" :                  "2011-08-31",
@@ -265,7 +283,7 @@
             "imageURL" :              "Event.png",
             "url" :                   "http://www.rit.edu/~w-orient/firstyear_highlights.php"
         },
-		{   "type" :                  "Conference",
+        {   "type" :                  "Conference",
             "label" :                 "GOSCON - Government Open Source Conference",
             "discipline" :            "Conference",
             "date" :                  "2011-08-23",
@@ -274,7 +292,7 @@
             "imageURL" :              "Event.png",
             "url" :                   "http://goscon.org/"
         },
-		{   "type" :                  "Conference",
+        {   "type" :                  "Conference",
             "label" :                 "RIT Undergraduate Research Symposium",
             "discipline" :            "Conference",
             "date" :                  "2011-08-12",
@@ -283,7 +301,7 @@
             "imageURL" :              "Event.png",
             "url" :                   "http://www.rit.edu/innovationcenter/symposium/index.html"
         },
-		{   "type" :                  "Conference",
+        {   "type" :                  "Conference",
             "label" :                 "ACM SIGITE",
             "discipline" :            "Conference",
             "date" :                  "2011-10-20",
@@ -292,7 +310,7 @@
             "imageURL" :              "Event.png",
             "url" :                   "http://opensource.com/education/11/10/foss-meets-it-education-acm-sigite"
         },
-		{   "type" :                  "Conference",
+        {   "type" :                  "Conference",
             "label" :                 "Teaching Open Source Summit",
             "discipline" :            "Conference",
             "date" :                  "2010-10-29",
@@ -301,7 +319,7 @@
             "imageURL" :              "Event.png",
             "url" :                   "http://teachingopensource.org/index.php/TOSS09"
         },
-		{   "type" :                  "Conference",
+        {   "type" :                  "Conference",
             "label" :                 "HFOSS Symposium",
             "discipline" :            "Conference",
             "date" :                  "2010-03-10",
@@ -310,7 +328,7 @@
             "imageURL" :              "Event.png",
             "url" :                   "http://www.hfoss.org/hfoss2010/?q=node/10"
         },
-		{   "type" :                  "Conference",
+        {   "type" :                  "Conference",
             "label" :                 "Frontiers in Education Conference",
             "discipline" :            "Conference",
             "date" :                  "2010-10-27",
@@ -319,7 +337,7 @@
             "imageURL" :              "Event.png",
             "url" :                   "http://www.fie-conference.org/fie2010/Pages/letters.htm"
         },
-		{   "type" :                  "Conference",
+        {   "type" :                  "Conference",
             "label" :                 "Personal Democracy Forum",
             "discipline" :            "Conference",
             "date" :                  "2010-06-05",
@@ -328,7 +346,7 @@
             "imageURL" :              "Event.png",
             "url" :                   "http://personaldemocracy.com/personal-democracy-forum-2010-conference-was"
         },
-		{   "type" :                  "Conference",
+        {   "type" :                  "Conference",
             "label" :                 "IEEE Games Innovation Conference",
             "discipline" :            "Conference",
             "date" :                  "2010-12-21",
@@ -337,7 +355,7 @@
             "imageURL" :              "Event.png",
             "url" :                   "http://ice-gic.ieee-cesoc.org/2011/index.htm"
         },
-		{   "type" :                  "Conference",
+        {   "type" :                  "Conference",
             "label" :                 "NTID Technology Symposium",
             "discipline" :            "Conference",
             "date" :                  "2010-06-21",
@@ -346,7 +364,7 @@
             "imageURL" :              "Event.png",
             "url" :                   "http://www.rit.edu/ntid/vp/techsym/"
         },
-		{   "type" :                  "Conference",
+        {   "type" :                  "Conference",
             "label" :                 "Engineer of the Future Conference",
             "discipline" :            "Conference",
             "date" :                  "2010-11-14",
@@ -355,7 +373,7 @@
             "imageURL" :              "Event.png",
             "url" :                   "http://engineerofthefuture.illinois.edu/"
         },
-		{   "type" :                  "Event",
+        {   "type" :                  "Event",
             "label" :                 "ImagineRIT 2010",
             "discipline" :            "Event",
             "date" :                  "2010-05-01",
@@ -364,7 +382,7 @@
             "imageURL" :              "Event.png",
             "url" :                   "http://www.rit.edu/imagine/"
         },
-		{   "type" :                  "Conference",
+        {   "type" :                  "Conference",
             "label" :                 "RIT Summer Undergraduate Research Symposium",
             "discipline" :            "Conference",
             "date" :                  "2010-08-13",
@@ -373,7 +391,7 @@
             "imageURL" :              "Event.png",
             "url" :                   "http://www.rit.edu/innovationcenter/symposium/"
         },
-		{   "type" :                  "Conference",
+        {   "type" :                  "Conference",
             "label" :                 "RIT Fall Undergraduate Research Symposium",
             "discipline" :            "Conference",
             "date" :                  "2010-11-12",
@@ -382,7 +400,7 @@
             "imageURL" :              "Event.png",
             "url" :                   "http://www.rit.edu/innovationcenter/symposium/"
         },
-		{   "type" :                  "Conference",
+        {   "type" :                  "Conference",
             "label" :                 "Social Media and Communications Symposium",
             "discipline" :            "Conference",
             "date" :                  "2010-09-29",
@@ -391,7 +409,7 @@
             "imageURL" :              "Event.png",
             "url" :                   "http://www.rit.edu/cla/smacs/"
         },
-		{   "type" :                  "Event",
+        {   "type" :                  "Event",
             "label" :                 "POSSE @ RIT",
             "discipline" :            "Event",
             "date" :                  "2010-06-14",
@@ -400,7 +418,7 @@
             "imageURL" :              "Event.png",
             "url" :                   "http://teachingopensource.org/index.php/POSSE_RIT/2010"
         },
-		{   "type" :                  "Conference",
+        {   "type" :                  "Conference",
             "label" :                 "FOSSCon 2010",
             "discipline" :            "Conference",
             "date" :                  "2010-06-19",
@@ -409,7 +427,7 @@
             "imageURL" :              "Event.png",
             "url" :                   "http://fosscon.org/"
         },
-		{   "type" :                  "Event",
+        {   "type" :                  "Event",
             "label" :                 "Walter Bender Lecture",
             "discipline" :            "Event",
             "date" :                  "2010-11-14",
@@ -418,7 +436,7 @@
             "imageURL" :              "Event.png",
             "url" :                   "http://www.gccis.rit.edu/lecture-series"
         },
-		{   "type" :                  "Event",
+        {   "type" :                  "Event",
             "label" :                 "Richard Stallman Lecture",
             "discipline" :            "Event",
             "date" :                  "2010-02-23",
@@ -427,7 +445,7 @@
             "imageURL" :              "Event.png",
             "url" :                   "http://www.rit.edu/innovationcenter/category/tags/csi"
         },
-		{   "type" :                  "Event",
+        {   "type" :                  "Event",
             "label" :                 "Righteous Pictures Screening and Workshop",
             "discipline" :            "Event",
             "date" :                  "2010-10-01",
@@ -436,7 +454,7 @@
             "imageURL" :              "Event.png",
             "url" :                   "http://foss.rit.edu/events/righteouspictures"
         },
-		{   "type" :                  "Event",
+        {   "type" :                  "Event",
             "label" :                 "Software Freedom Day 2010",
             "discipline" :            "Event",
             "date" :                  "2010-09-18",
@@ -445,7 +463,7 @@
             "imageURL" :              "Event.png",
             "url" :                   "http://softwarefreedomday.org/"
         },
-		{   "type" :                  "Conference",
+        {   "type" :                  "Conference",
             "label" :                 "CapitolCamp Developer Summit",
             "discipline" :            "Conference",
             "date" :                  "2010-08-19",
@@ -454,7 +472,7 @@
             "imageURL" :              "Event.png",
             "url" :                   "http://barcamp.org/w/page/402087/CapitolCamp"
         },
-		{   "type" :                  "Conference",
+        {   "type" :                  "Conference",
             "label" :                 "BarcampRoc Fall '10",
             "discipline" :            "Conference",
             "date" :                  "2010-10-23",
@@ -463,7 +481,7 @@
             "imageURL" :              "Event.png",
             "url" :                   "http://barcamproc.org/"
         },
-		{   "type" :                  "Event",
+        {   "type" :                  "Event",
             "label" :                 "RIT48",
             "discipline" :            "Event",
             "date" :                  "2010-03-19",
@@ -472,7 +490,7 @@
             "imageURL" :              "Event.png",
             "url" :                   "http://rit48.com/index_old.html"
         },
-		{   "type" :                  "Event",
+        {   "type" :                  "Event",
             "label" :                 "ARM Developer Day",
             "discipline" :            "Event",
             "date" :                  "2010-12-02",
@@ -481,7 +499,7 @@
             "imageURL" :              "Event.png",
             "url" :                   "http://afmiee.wordpress.com/"
         },
-		{   "type" :                  "Event",
+        {   "type" :                  "Event",
             "label" :                 "RITpedia Wikithon",
             "discipline" :            "Event",
             "date" :                  "2010-05-15",
@@ -490,7 +508,7 @@
             "imageURL" :              "Event.png",
             "url" :                   "http://www.rit.edu/studentaffairs/ritpedia/wiki/Main_Page"
         },
-		{   "type" :                  "Event",
+        {   "type" :                  "Event",
             "label" :                 "InterlockROC & Co-working Rochester: Lightning Talks",
             "discipline" :            "Event",
             "date" :                  "2010-02-05",
@@ -499,7 +517,7 @@
             "imageURL" :              "Event.png",
             "url" :                   "http://www.rit.edu/innovationcenter/interlockroc-showcase-first-fridays-2510"
         },
-		{   "type" :                  "Conference",
+        {   "type" :                  "Conference",
             "label" :                 "RIT Connectology Leadership Conference",
             "discipline" :            "Conference",
             "date" :                  "2011-04-09",
@@ -508,7 +526,7 @@
             "imageURL" :              "Event.png",
             "url" :                   "http://campuslife.rit.edu/leadership/connectology/conference.php"
         },
-		{   "type" :                  "Hackathon",
+        {   "type" :                  "Hackathon",
             "label" :                 "FOSS@RIT Winter Hackfest",
             "discipline" :            "Hackathon",
             "date" :                  "2011-01-21",
@@ -517,7 +535,7 @@
             "imageURL" :              "Event.png",
             "url" :                   "http://foss.rit.edu/winterhackfest"
         },
-		{   "type" :                  "Event",
+        {   "type" :                  "Event",
             "label" :                 "InterlockROC Lightning Talks",
             "discipline" :            "Event",
             "date" :                  "2011-02-18",
@@ -526,7 +544,7 @@
             "imageURL" :              "thoughts.png",
             "url" :                   "http://foss.rit.edu/events/InterlockROCLightningTalks"
         },
-		{   "type" :                  "Conference",
+        {   "type" :                  "Conference",
             "label" :                 "PYCon: Connecting the Python Community",
             "discipline" :            "Conference",
             "date" :                  "2011-03-09",
@@ -535,7 +553,7 @@
             "imageURL" :              "Event.png",
             "url" :                   "http://us.pycon.org/2011/home/"
         },
-		{   "type" :                  "Event",
+        {   "type" :                  "Event",
             "label" :                 "Linux Installfest",
             "discipline" :            "Event",
             "date" :                  "2011-04-23",
@@ -544,7 +562,7 @@
             "imageURL" :              "Event.png",
             "url" :                   "http://installfest.org/"
         },
-		{   "type" :                  "Hackathon",
+        {   "type" :                  "Hackathon",
             "label" :                 "FOSS@RIT Winter Wrap-up Hackathon",
             "discipline" :            "Hackathon",
             "date" :                  "2011-02-18",
@@ -553,7 +571,7 @@
             "imageURL" :              "hackfest.png",
             "url" :                   "http://foss.rit.edu/WWH"
         },
-		{   "type" :                  "Event",
+        {   "type" :                  "Event",
             "label" :                 "FOSS@RIT Spring Opportunities Meeting",
             "discipline" :            "Event",
             "date" :                  "2011-03-09",
@@ -562,7 +580,7 @@
             "imageURL" :              "Event.png",
             "url" :                   "http://foss.rit.edu/spring2011"
         },
-		{   "type" :                  "Conference",
+        {   "type" :                  "Conference",
             "label" :                 "BarcampRoc Spring '11",
             "discipline" :            "Conference",
             "date" :                  "2011-04-16",
@@ -571,7 +589,7 @@
             "imageURL" :              "Event.png",
             "url" :                   "http://www.barcamproc.org/"
         },
-		{   "type" :                  "Event",
+        {   "type" :                  "Event",
             "label" :                 "GCCIS Undergrad Research Fellowship Application/Doc Sprint",
             "discipline" :            "Event",
             "date" :                  "2011-03-21",
@@ -580,7 +598,7 @@
             "imageURL" :              "Event.png",
             "url" :                   "http://foss.rit.edu/summer-research-app-sprint"
         },
-		{   "type" :                  "Event",
+        {   "type" :                  "Event",
             "label" :                 "StackOverflow Meetup",
             "discipline" :            "Event",
             "date" :                  "2011-04-06",
@@ -589,7 +607,7 @@
             "imageURL" :              "Event.png",
             "url" :                   "http://blog.stackoverflow.com/2011/03/stack-overflow-meetups-april-6/"
         },
-		{   "type" :                  "Event",
+        {   "type" :                  "Event",
             "label" :                 "EdTechDay",
             "discipline" :            "Event",
             "date" :                  "2011-03-24",
@@ -598,7 +616,7 @@
             "imageURL" :              "Event.png",
             "url" :                   "http://www.ithaca.edu/edtechday"
         },
-		{   "type" :                  "Conference",
+        {   "type" :                  "Conference",
             "label" :                 "TEDxBuffalo 2011",
             "discipline" :            "Conference",
             "date" :                  "2011-10-11",
@@ -607,7 +625,7 @@
             "imageURL" :              "Event.png",
             "url" :                   "http://bit.ly/tedxbuffalo-civx"
         },
-		{   "type" :                  "Conference",
+        {   "type" :                  "Conference",
             "label" :                 "WeLiveNYSummit 2011",
             "discipline" :            "Conference",
             "date" :                  "2011-03-26",
@@ -616,7 +634,7 @@
             "imageURL" :              "Event.png",
             "url" :                   "http://unystartups.com/2011/03/22/promotional-video-we-live-ny-summit-2011/"
         },
-		{   "type" :                  "Event",
+        {   "type" :                  "Event",
             "label" :                 "Rochester Java User Group Meeting (RJUG)",
             "discipline" :            "Event",
             "date" :                  "2011-04-15",
@@ -625,7 +643,7 @@
             "imageURL" :              "Event.png",
             "url" :                   "http://foss.rit.edu/node/283"
         },
-		{   "type" :                  "Hackathon",
+        {   "type" :                  "Hackathon",
             "label" :                 "RiseAboveTheCrowd Hackfest",
             "discipline" :            "Hackathon",
             "date" :                  "2011-04-27",
@@ -634,7 +652,7 @@
             "imageURL" :              "hackfest.png",
             "url" :                   "http://foss.rit.edu/node/290"
         },
-		{   "type" :                  "Event",
+        {   "type" :                  "Event",
             "label" :                 "ImagineRIT",
             "discipline" :            "Event",
             "date" :                  "2011-05-07",
@@ -643,7 +661,7 @@
             "imageURL" :              "Event.png",
             "url" :                   "http://www.rit.edu/imagine/"
         },
-		{   "type" :                  "Conference",
+        {   "type" :                  "Conference",
             "label" :                 "BarcampROC Fall '11",
             "discipline" :            "Conference",
             "date" :                  "2011-10-22",
@@ -652,7 +670,7 @@
             "imageURL" :              "Event.png",
             "url" :                   "http://BarcampROC.org"
         },
-		{   "type" :                  "Event",
+        {   "type" :                  "Event",
             "label" :                 "FOSS@RIT Breakfast Send-off",
             "discipline" :            "Event",
             "date" :                  "2011-05-19",
@@ -661,7 +679,7 @@
             "imageURL" :              "Event.png",
             "url" :                   "http://foss.rit.edu/node/296"
         },
-		{   "type" :                  "Event",
+        {   "type" :                  "Event",
             "label" :                 "FOSS@RIT Summer Undergraduate Research Fellowship Kick-Off",
             "discipline" :            "Event",
             "date" :                  "2011-04-27",
@@ -670,7 +688,7 @@
             "imageURL" :              "Event.png",
             "url" :                   "http://foss.rit.edu/node/297"
         },
-		{   "type" :                  "Event",
+        {   "type" :                  "Event",
             "label" :                 "StartupROC Meeting",
             "discipline" :            "Event",
             "date" :                  "2011-06-07",
@@ -679,7 +697,7 @@
             "imageURL" :              "Event.png",
             "url" :                   "http://startupweekend.org/"
         },
-		{   "type" :                  "Hackathon",
+        {   "type" :                  "Hackathon",
             "label" :                 "FOSS@RIT POSSE Hackathon",
             "discipline" :            "Hackathon",
             "date" :                  "2011-06-06",
@@ -688,7 +706,7 @@
             "imageURL" :              "hackfest.png",
             "url" :                   "http://teachingopensource.org/index.php/POSSE_RIT"
         },
-		{   "type" :                  "Event",
+        {   "type" :                  "Event",
             "label" :                 "FOSS@RIT & SU Student Sandbox Hackathon",
             "discipline" :            "Event",
             "date" :                  "2011-07-12",
@@ -697,7 +715,7 @@
             "imageURL" :              "Event.png",
             "url" :                   "http://www.syracusestudentsandbox.com/"
         },
-		{   "type" :                  "Event",
+        {   "type" :                  "Event",
             "label" :                 "POSSE",
             "discipline" :            "Event",
             "date" :                  "2011-07-14",
@@ -706,5 +724,5 @@
             "imageURL" :              "Event.png",
             "url" :                   "http://teachingopensource.org/index.php/POSSE_RIT"
         },
-	]
+    ]
 }
